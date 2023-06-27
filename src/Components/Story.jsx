@@ -1,4 +1,4 @@
-import React from 'react';
+
 import freezing from '../assets/freezing.png';
 import Innovation from '../assets/project-management.png';
 import Collaboration from '../assets/collaborate.png';
@@ -26,16 +26,16 @@ const Story = () => {
         <div className='lg:mt-32 md:mt-20 mt-14  md:w-[88%] mx-auto'>
             <div className="text-center flex flex-col justify-center items-center">
                 <img className='w-[35px]' src={freezing} alt="" />
-                <h1 className='text-3xl mt-4 font-bold text-black'>Our <span className='text-primary'>Story</span></h1>
+                <h1 className='text-3xl mt-4 font-bold text-black'>Our <span className='text-[#E15039]'>Story</span></h1>
                 <div className="w-[70%] mx-auto">
-                    <p className='text-lg my-5'>Lorem ipsum dolor  ullam quaerat optio voluptatibus ipsam voluptatem quo obcaecati eius commodi recusandae eaque laborum inventore, dicta error!</p>
+                    <p className='text-lg my-5'>Where imagination thrives, captivating with cutting-edge tech and immersive stories that transcend boundaries, uniting people and inspiring positive change. </p>
                 </div>
             </div>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 w-[80%] md:w-full mx-auto md:gap-6">
                 {
                     storySection.map((item, index) => (
-                        <div className='flex flex-col border justify-center items-center py-8 text-center rounded-lg my-10' key={index}>
-                                <img className='w-[45px]' src={item.img} alt="" />
+                        <div className='flex flex-col border justify-center   items-center py-8 text-center rounded-lg my-10 hover:text-white hover:bg-[#E15039]' key={index}>
+                                <div><img className='w-[45px] ' src={item.img} alt="" /></div>
                             <div className="md:w-[65%]">
                                 <h1 className='text-2xl font-bold'>{item.name}</h1>
                                 <p className='text-base mt-4'>{item.description}</p>

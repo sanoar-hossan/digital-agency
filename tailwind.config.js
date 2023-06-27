@@ -11,10 +11,10 @@ export default {
         'happy-customer': "url('./src/assets/happy-client.jpg')",
         'contact-us': "url('./src/assets/contact_us.jpg')",
       },
-      colors :{
-        'primary': '#2AAFC0',
-        'light': '#757575',
-      }
+      // colors :{
+      //   '[#E15039]': '#2AAFC0',
+      //   'light': '#757575',
+      // }
 
     },
   },
